@@ -82,3 +82,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.has_wide_color_display=1 \
     ro.surface_flinger.use_color_management=1
+
+# Gboard
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.com.google.ime.kb_pad_port_b=1
