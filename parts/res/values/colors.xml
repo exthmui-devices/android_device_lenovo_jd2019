@@ -18,5 +18,9 @@
     <color name="switchbar_background_color">@*android:color/material_grey_600</color>
     <color name="switchbar_switch_track_tint">#BFFFFFFF</color>
     <color name="switchbar_switch_thumb_tint">@android:color/white</color>
+
+    <!-- Raise to wake strings-->
+    <string name="raise_to_wake_gesture_title">Raise to wake</string>
+    <string name="raise_to_wake_gesture_summary">Wake up the device instead of pulsing notification</string>
 </resources>
 
