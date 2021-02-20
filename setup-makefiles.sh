@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=kunlun2
+DEVICE=jd2019
 VENDOR=lenovo
 
 # Load extract_utils and do some sanity checks
