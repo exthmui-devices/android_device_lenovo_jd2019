@@ -1,5 +1,5 @@
 allow init proc_touchpanel:dir search;
-allow init proc_touchpanel:file { write setattr open};
+allow init proc_touchpanel:file { write setattr open };
 
 # Allow init to mount vendor configs
 allow init vendor_configs_file:dir mounton;
@@ -12,5 +12,10 @@ allow init self:netlink_generic_socket read;
 
 allow init sysfs:file rw_file_perms;
 allow init sysfs_tp:file setattr;
+
+allow init sysfs_devfreq:file { write };
+allow init sysfs_devices_system_cpu:file { write };
+allow init sysfs_msm_power:file { write };
+allow init sysfs_mmc_host:file { write };
 
 allow init vendor_file:file execute;

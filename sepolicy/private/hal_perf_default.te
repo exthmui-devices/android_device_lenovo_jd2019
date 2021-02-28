@@ -1,0 +1,12 @@
+type hal_perf_default, domain, mlstrustedsubject;
+type hal_perf_default_exec, exec_type, vendor_file_type, file_type;
+init_daemon_domain(hal_perf_default)
+# Allow hwbinder call from hal client to server
+binder_call(hal_perf_default, hwservicemanager)
+
+# Add hwservice related rules
+allow hal_perf_default cgroup:file r_file_perms;
+allow hal_perf_default proc:file rw_file_perms;
+
+# Allow to self kill capability
+allow hal_perf_default self:capability { kill };
