@@ -81,3 +81,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Wave Maintainer
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.wave.maintainer=Victor
+
+# Color control
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.surface_flinger.has_wide_color_display=1 \
+    ro.surface_flinger.use_color_management=1
