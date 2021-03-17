@@ -45,5 +45,6 @@ void vendor_load_properties() {
     property_override("ro.system.build.fingerprint", "google/redfin/redfin:11/RQ2A.210305.007/7124944:user/release-keys");
     property_override("ro.product.build.fingerprint", "google/redfin/redfin:11/RQ2A.210305.007/7124944:user/release-keys");
     property_override("ro.oem_unlock_supported", "0");
-
+    property_override("debug.stagefright.omx_default_rank.sw-audio", " ");
+    property_override("debug.stagefright.omx_default_rank", " ");
 }
