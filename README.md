@@ -18,4 +18,4 @@ Rear Camera  | 15.93 MP | Image 4608 x 3456 pixels | Video 3840 x 2160 pixels | 
 Front Camera | 15.93 MP
 Release Date | 2018, December 24
 
-![Lenovo Z5S](https://fdn2.gsmarena.com/vv/pics/lenovo/lenovo-z5s-2.jpg)
+![Lenovo Z5S](https://i.ibb.co/tMTX78X/jd2019.png)

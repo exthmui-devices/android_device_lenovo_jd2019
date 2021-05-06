@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019 The PixelExperience Project
+# Copyright (C) 2021 The Project Sakura
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -19,11 +19,17 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # Bootanimation targets
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Inherit some common WaveOS stuff
-$(call inherit-product, vendor/wave/configs/common.mk)
+# Inherit some common Project Sakura stuff
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+
+# Sakura build flags
+SAKURA_OFFICIAL := true
+SAKURA_MAINTAINER := CakesTwix
+SAKURA_OPLAUNCHER := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := wave_jd2019
+PRODUCT_NAME := lineage_jd2019
 PRODUCT_BRAND := Lenovo
 PRODUCT_DEVICE := jd2019
 PRODUCT_MANUFACTURER := Lenovo

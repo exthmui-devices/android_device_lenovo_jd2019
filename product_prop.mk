@@ -78,10 +78,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.device_config.runtime_native.usap_pool_enabled=true
 
-# Wave Maintainer
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.wave.maintainer=Victor
-
 # Color control
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.has_wide_color_display=1 \
