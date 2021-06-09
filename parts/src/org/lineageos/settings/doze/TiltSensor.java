@@ -89,9 +89,12 @@ public class TiltSensor implements SensorEventListener {
                 mPowerManager.wakeUp(SystemClock.uptimeMillis(),
                     PowerManager.WAKE_REASON_GESTURE, TAG);
             } else {
-                DozeUtils.launchDozePulse(mContext);
+
+            DozeUtils.wakeOrLaunchDozePulse(mContext);
+
             }
         }
+
     }
 
     @Override
