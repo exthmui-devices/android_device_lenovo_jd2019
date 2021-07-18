@@ -20,16 +20,12 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Inherit some common Project Sakura stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/exthm/config/common_full_phone.mk)
 
-# Sakura build flags
-SAKURA_OFFICIAL := true
-SAKURA_MAINTAINER := CakesTwix
-SAKURA_OPLAUNCHER := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_jd2019
+PRODUCT_NAME := exthm_jd2019
 PRODUCT_BRAND := Lenovo
 PRODUCT_DEVICE := jd2019
 PRODUCT_MANUFACTURER := Lenovo
